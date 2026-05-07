@@ -84,7 +84,7 @@ Open this file in a browser to view execution results.
 
 1.Get all menu items – Validate at least 9 items with fields id, name, price, image.
 
-2.Filter by id – GET /inventory/filter?id=3 and validate correct item data.
+2.Filter by id – Filters the inventory with respect to ID and validate correct item data.
 
 3.Add item for non-existent id – POST new item and expect status 200.
 
