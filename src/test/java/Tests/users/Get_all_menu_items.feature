@@ -7,11 +7,9 @@ Feature: Get all menu items feature
     And method GET
     Then status 200
     * karate.log('Inventory response:', response)
-
-    # Validate response contains at least 9 items
+      # Validate response contains at least 9 items
     And assert response.data.length >= 9
-
-    # Validate required fields for each item
+      # Validate required fields for each item
     And match each response.data ==
       """
       {

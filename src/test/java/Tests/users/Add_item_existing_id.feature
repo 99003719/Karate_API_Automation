@@ -2,11 +2,10 @@ Feature: Add item for existent id
 
   Background:
 
-    * def requestBody = read('classpath:Tests/data/add_existing_item_payload.json')
+    * def requestBody = read('classpath:Tests/data/Add_existing_item_payload.json')
 
   Scenario: Add existing item to the inventory
-
-      #Adding the existing item to validate the status code
+    #Adding the existing item to validate the status code
     Given url baseUrl
     And path 'api', 'inventory', 'add'
     And request requestBody
