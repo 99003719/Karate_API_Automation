@@ -11,8 +11,7 @@ class TestRunner {
                 "Add_item_with_missing_info",
                 "Filter_by_id",
                 "Get_all_menu_items",
-                "Validate_recent_added_item_is_present_in_the_inventory"
-                ).relativeTo(getClass());
+                "Validate_recent_added_item_is_present_in_the_inventory").relativeTo(getClass());
     }
 
 }
